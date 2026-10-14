@@ -1,0 +1,193 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rendering comparison | IoT Atlas</title><meta name="description" content="Download official IoT apps for Tuya, Xiaomi, Ring, KASA, Tapo, Reolink, EZVIZ, SmartThings, Alexa, Google Home and more."><link rel="stylesheet" href="assets/styles.css?v=20261014q">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json" data-generated="faq-schema">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I find the app for my device?","acceptedAnswer":{"@type":"Answer","text":"Search by brand or app name, or filter by category and subcategory. If you are unsure, the product manual or the QR code on the device names the correct app."}},{"@type":"Question","name":"Are the download links official?","acceptedAnswer":{"@type":"Answer","text":"Most point at the official App Store or Google Play listing, verified against Apple's catalogue. Some remain official store search links and are labelled as such."}},{"@type":"Question","name":"Why do several brands use the same app?","acceptedAnswer":{"@type":"Answer","text":"White-label hardware platforms are common in wearables and cameras. Different brands can ship devices managed by the same underlying app, and one vendor can publish several apps."}},{"@type":"Question","name":"An app is missing from one store. What does that mean?","acceptedAnswer":{"@type":"Answer","text":"Usually it is Android-only, or region-locked. Records that could not be found on the US App Store are flagged so you can confirm on Google Play."}}]}</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--seo:start-->
+<link rel="canonical" href="https://hi-spark.net/perf-demo.html">
+<link rel="alternate" hreflang="en" href="https://hi-spark.net/perf-demo.html">
+<link rel="alternate" hreflang="es" href="https://hi-spark.net/perf-demo.html?lang=es">
+<link rel="alternate" hreflang="fr" href="https://hi-spark.net/perf-demo.html?lang=fr">
+<link rel="alternate" hreflang="x-default" href="https://hi-spark.net/perf-demo.html">
+<meta name="robots" content="noindex,nofollow">
+<link rel="alternate" type="application/atom+xml" href="feed.xml" title="IoT Atlas - recently verified records">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0c7475">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="IoT Atlas">
+<meta property="og:title" content="Rendering comparison | IoT Atlas">
+<meta property="og:description" content="Download official IoT apps for Tuya, Xiaomi, Ring, KASA, Tapo, Reolink, EZVIZ, SmartThings, Alexa, Google Home and more.">
+<meta property="og:url" content="https://hi-spark.net/perf-demo.html">
+<meta property="og:image" content="https://hi-spark.net/assets/og-default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://hi-spark.net/assets/og-default.png">
+<meta name="twitter:title" content="Rendering comparison | IoT Atlas">
+<meta name="twitter:description" content="Download official IoT apps for Tuya, Xiaomi, Ring, KASA, Tapo, Reolink, EZVIZ, SmartThings, Alexa, Google Home and more.">
+<!--seo:end-->
+<script type="application/ld+json" data-generated="structured-data">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://hi-spark.net/perf-demo.html#webpage","name":"Rendering comparison | IoT Atlas","url":"https://hi-spark.net/perf-demo.html"},{"@type":"BreadcrumbList","@id":"https://hi-spark.net/perf-demo.html#breadcrumblist","name":"Rendering comparison | IoT Atlas","url":"https://hi-spark.net/perf-demo.html","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://hi-spark.net/"},{"@type":"ListItem","position":2,"name":"Rendering comparison | IoT Atlas","item":"https://hi-spark.net/perf-demo.html"}]}]}</script></head><body data-page="methodology"><a class="skip-link" href="#main">Skip to content</a><div id="site-header"></div><main id="main"><section class="page-hero"><div class="container"><span class="eyebrow">Rendering comparison</span><h1>Skeleton loading and virtual scrolling</h1><p class="lede">The same app list rendered two ways at once. The left column puts every record in the DOM. The right column keeps only the rows near the viewport and recycles them as you scroll. Node counts below are live.</p><div class="stats-row"><div class="stat-card"><strong id="demo-total">0</strong><span>Records in the list</span></div><div class="stat-card"><strong id="demo-visible">0</strong><span>Rows currently mounted</span></div><div class="stat-card"><strong>48</strong><span>First paint batch</span></div><div class="stat-card"><strong>300px</strong><span>Uniform card height</span></div></div></div></section><section class="section compact"><div class="container"><div class="panel"><h2 style="margin-top:0">How to read this</h2><ul class="feature-list-plain"><li><strong>Progressive render</strong> renders a first batch immediately, then appends 48 more as you scroll. Simple, and the DOM grows to the full list.</li><li><strong>Virtual scroll</strong> keeps roughly two screens of rows mounted and repositions them on scroll. The DOM node count stays flat no matter how long the list is.</li><li>Both start with <strong>skeleton cards</strong> so the loading state is visible instead of a blank panel.</li><li>Uniform card height is the trade-off virtualisation requires. Cards are clamped to 320px and long summaries are limited to three lines.</li></ul></div><div class="demo-switch" id="demo-switch"><button type="button" class="category-tab active" data-mode="plain">Progressive render</button><button type="button" class="category-tab" data-mode="virtual">Virtual scroll</button></div><div class="demo-pane is-active" data-mode="plain"><div class="perf-bar"><span><b>Progressive:</b> <span id="demo-plain-nodes">-</span> nodes, built in <span id="demo-plain-time">-</span></span><span class="pill teal">Left column</span></div><span id="demo-plain-note" class="data-note" style="margin:0 0 10px"></span><div class="app-grid" id="demo-plain" style="margin-bottom:36px"></div></div><div class="demo-pane" data-mode="virtual"><div class="perf-bar"><span><b>Virtual:</b> <span id="demo-virtual-nodes">-</span> nodes, built in <span id="demo-virtual-time">-</span></span><span class="pill blue">Right column</span><span class="data-note" style="margin:0">scroll to watch the node count stay flat</span></div><div id="demo-virtual"></div></div></div></section></main><div id="site-footer"></div><script src="assets/data.js?v=20261014q"></script><script src="assets/brands.js?v=20261014q"></script><script src="assets/brand-site-verified.js?v=20261014q"></script><script src="assets/brand-scores.js?v=20261014q"></script><script src="assets/category-hub.js?v=20261014q"></script><script src="assets/clouds.js?v=20261014q"></script><script src="assets/knowledge.js?v=20261014q"></script><script src="assets/knowledge-extra.js?v=20261014q"></script><script src="assets/knowledge-extra2.js?v=20261014q"></script><script src="assets/logo-map.js?v=20261014q"></script><script src="assets/product-directory.js?v=20261014q"></script><script src="assets/compare-data.js?v=20261014q"></script><script src="assets/brand-index.js?v=20261014q"></script><script src="assets/compatibility-data.js?v=20261014q"></script><script src="assets/model-data.js?v=20261014q"></script><script src="assets/troubleshooting-data.js?v=20261014q"></script><script src="assets/certification-data.js?v=20261014q"></script><script src="assets/app-directory.js?v=20261014q"></script><script src="assets/app-directory-extra.js?v=20261014q"></script><script src="assets/app-directory-extra2.js?v=20261014q"></script><script src="assets/app-directory-camera.js?v=20261014q"></script><script src="assets/app-directory-healthhome.js?v=20261014q"></script><script src="assets/app-directory-health.js?v=20261014q"></script><script src="assets/app-directory-wearables.js?v=20261014q"></script><script src="assets/app-directory-more.js?v=20261014q"></script><script src="assets/app-directory-extra4.js?v=20261014q"></script><script src="assets/app-directory-extra5.js?v=20261014q"></script><script src="assets/app-directory-extra6.js?v=20261014q"></script><script src="assets/app-directory-extra7.js?v=20261014q"></script><script src="assets/app-directory-extra8.js?v=20261014q"></script><script src="assets/app-directory-extra9.js?v=20261014q"></script><script src="assets/app-directory-extra10.js?v=20261014q"></script><script src="assets/app-directory-extra11.js?v=20261014q"></script><script src="assets/app-directory-extra12.js?v=20261014q"></script><script src="assets/app-directory-extra13.js?v=20261014q"></script><script src="assets/app-directory-extra14.js?v=20261014q"></script><script src="assets/app-directory-normalize.js?v=20261014q"></script><script src="assets/app-directory-quality.js?v=20261014q"></script><script src="assets/app-scope-filter.js?v=20261014q"></script><script src="assets/app-sources.js?v=20261014q"></script><script src="assets/app-brand-basis.js?v=20261014q"></script><script src="assets/app-verified.js?v=20261014q"></script><script src="assets/app-summaries.js?v=20261014q"></script><script src="assets/app-summary-variants.js?v=20261014q"></script><script src="assets/i18n.js?v=20261014q"></script><script src="assets/entity-urls.js?v=20261014q"></script><script src="assets/perf-demo.js?v=20261014q"></script><script src="assets/apps-ui.js?v=20261014q"></script><script src="assets/knowledge-ui.js?v=20261014q"></script><script src="assets/lazy-render.js?v=20261014q"></script><script src="assets/virtual-scroll.js?v=20261014q"></script><script src="assets/expanded-content-ui.js?v=20261014q"></script><script src="assets/consent.js?v=20261014q"></script><script src="assets/analytics-config.js?v=20261014q"></script><script src="assets/analytics.js?v=20261014q"></script><script src="assets/outbound-config.js?v=20261014q"></script><script src="assets/outbound-tagging.js?v=20261014q"></script><script src="assets/subscribe-config.js?v=20261014q"></script><script src="assets/subscribe.js?v=20261014q"></script><script src="assets/monetization-config.js?v=20261014q"></script><script src="assets/monetization.js?v=20261014q"></script><script src="assets/app.js?v=20261014q"></script><nav class="static-index" aria-label="Site sections"><div class="container"><span class="static-index-label">Site index</span><a href="sitemap.html">All pages</a><a href="categories.html">Categories</a><a href="brand.html">Brands</a><a href="apps.html">Apps</a><a href="cloud.html">Cloud platforms</a><a href="knowledge.html">Knowledge base</a><a href="compare.html">Comparisons</a><a href="products.html">Products</a><a href="compatibility.html">Compatibility</a><a href="models.html">Models & manuals</a><a href="troubleshooting.html">Troubleshooting</a><a href="certifications.html">Certifications</a><a href="markets.html">Markets</a><a href="amazon-best-sellers.html">Best sellers</a><a href="community.html">Community</a><a href="dataset.html">Open data</a></div></nav></body></html>

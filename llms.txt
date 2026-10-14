@@ -1,0 +1,232 @@
+# IoT Atlas
+
+> Independent IoT decision platform covering devices, protocols, apps, cloud platforms and marketplace rankings across English, Spanish and French markets.
+
+## What this site is
+
+- A structured IoT catalogue plus editorial decision tools, not a shop and not a review farm.
+- Every record links to an official source. Marketplace ranks, prices and ASINs are prototype placeholders until a licensed Amazon data source is connected.
+- Editorial scores are opinionated, documented and not financial or investment advice.
+
+## Coverage
+
+- 30 IoT category hubs
+- 290 brands, including 268 non-cloud brands
+- 998 mobile app records with Google Play and App Store links, across 25 app categories
+- App categories: AI Toys & Education, Access Control, Air & Water, Audio & Headphones, Dash Cams, Drones, EV Charging, Electrical, Energy & Solar, Health, Health & Home, Infrared & Remotes, Label Printers, Lighting, Pet Tech, Projectors, Robot Vacuums, Security, Smart Garden, Smart Home, Smart Locks, TV & Streaming, Tracking, Trail Cameras, Wearables
+- 29 cloud, IoT and connectivity platforms
+- 49 structured comparisons scored across decision factors
+- 96 ranked marketplace products across 23 categories
+- 47 compatibility guides, 32 product model and manual records, 40 troubleshooting guides and 44 certification references
+- 61 protocols, 47 standards, 42 guides, 33 concepts
+
+## Pre-rendered entity pages
+
+- Every brand, app, platform, protocol, comparison, category, model, compatibility guide, troubleshooting guide and certification has its own static page.
+- Brand: https://hi-spark.net/brand/<slug>.html   App: https://hi-spark.net/app/<slug>.html
+- Platform: https://hi-spark.net/cloud/<slug>.html   Protocol: https://hi-spark.net/protocol/<slug>.html
+- Comparison: https://hi-spark.net/compare/<slug>.html   Category: https://hi-spark.net/category/<slug>.html
+- Compatibility: https://hi-spark.net/compatibility/<slug>.html   Model: https://hi-spark.net/model/<slug>.html
+- Troubleshooting: https://hi-spark.net/troubleshooting/<slug>.html   Certification: https://hi-spark.net/certification/<slug>.html
+- Full index: https://hi-spark.net/sitemap-entities.xml
+
+## Answer formats and citation
+
+- Compatibility, model, troubleshooting and certification pages each open with a Quick answer paragraph, a key-facts grid and a copy-ready citation line.
+- Citation format: IoT Atlas. "<page title>". https://hi-spark.net/<path>. Last verified <YYYY-MM-DD>.
+- Every record carries a last-verified date and links to the official source, so a statement can be traced back to the issuer before it is used in a compliance decision.
+- Certification records state what a scheme covers and what it does not cover, which keeps an answer scoped to the right market and product type.
+- Machine-readable data lives in /assets/*.js and the full static index is https://hi-spark.net/sitemap-entities.xml.
+
+## Key pages
+
+- [All IoT categories with live record counts](https://hi-spark.net/categories.html)
+- [IoT App Download Center](https://hi-spark.net/apps.html)
+- [Cloud and IoT platform directory with world coverage map](https://hi-spark.net/cloud.html)
+- [Structured comparison hub](https://hi-spark.net/compare.html)
+- [Marketplace rankings with AI probability signals](https://hi-spark.net/amazon-best-sellers.html)
+- [Knowledge base with a required-field completeness contract](https://hi-spark.net/knowledge.html)
+- [Community Q&A and owner reviews](https://hi-spark.net/community.html)
+- [Compatibility center](https://hi-spark.net/compatibility.html)
+- [Product model and official manual center](https://hi-spark.net/models.html)
+- [IoT setup and troubleshooting center](https://hi-spark.net/troubleshooting.html)
+- [IoT certification and security reference](https://hi-spark.net/certifications.html)
+- [AI scoring methodology](https://hi-spark.net/ai-signals.html)
+
+## Protocols covered
+
+- Wi-Fi (Wireless LAN): High-bandwidth wireless networking for cameras, hubs, appliances and home devices.
+- Bluetooth LE (Short-range): Low-energy pairing and control for wearables, locks, sensors and configuration.
+- Zigbee (Mesh): Low-power mesh networking widely used in sensors, lighting, locks and smart-home hubs.
+- Thread (IPv6 mesh): Low-power IPv6 mesh designed for Matter, smart-home devices and border routers.
+- Matter (Application standard): Cross-ecosystem application layer for smart-home devices across Wi-Fi, Ethernet and Thread.
+- Z-Wave (Mesh): Sub-GHz mesh ecosystem common in security, locks, lighting and hubs.
+- MQTT (IoT messaging): Publish-subscribe messaging protocol designed for constrained devices and unreliable networks.
+- HTTPS & REST (Application / API): Secure request-response APIs used by cloud platforms, mobile apps and device management tools.
+- CoAP (Constrained web): UDP-based protocol for constrained IoT devices and low-bandwidth networks.
+- AMQP (Enterprise messaging): Message-oriented protocol used by enterprise IoT platforms and cloud integrations.
+- LoRaWAN (LPWAN): Long-range, low-power wide-area networking for sensors, agriculture and utility metering.
+- NB-IoT (Cellular LPWAN): Narrowband cellular service for low-power, low-data sensors and meters.
+- LTE-M (Cellular LPWAN): LTE-based low-power cellular connectivity with better mobility and latency than NB-IoT.
+- 4G LTE (Cellular broadband): Cellular broadband for cameras, routers, hotspots and remote sites.
+- 5G (Cellular broadband): High-throughput, low-latency cellular connectivity for gateways, video and industrial deployments.
+- eSIM (SIM technology): Embedded, remotely provisioned SIM profile for cellular devices and global fleets.
+- GNSS (Positioning): Satellite positioning using GPS, Galileo, GLONASS, BeiDou and related constellations.
+- Ultra-Wideband (Wireless / ranging): Centimetre-accurate ranging for secure access and precise indoor location.
+- NFC (Short-range): Very short-range tap, pairing and payment technology.
+- RFID (Identification): Radio-frequency identification for inventory, access and asset identification.
+- Modbus (Industrial / fieldbus): Decades-old industrial protocol, still the default for PLCs, meters and inverters.
+- OPC UA (Industrial interoperability): Secure industrial communication standard for machines, PLCs and industrial software.
+- RS-485 (Industrial / physical layer): Differential serial physical layer used by Modbus RTU, BACnet MS/TP and many sensors.
+- Ethernet (Wired LAN): Reliable wired networking for NVRs, gateways, industrial devices and fixed infrastructure.
+- PoE (Power over Ethernet): Combines data and power on Ethernet cabling for cameras, access points and IoT endpoints.
+- Wi-Fi HaLow (Long-range Wi-Fi): Sub-GHz Wi-Fi standard for longer-range, lower-power IoT devices.
+- Wi-Fi 6E / 7 (High-performance Wi-Fi): Modern Wi-Fi generations with higher throughput, lower latency and 6 GHz support.
+- Bluetooth Mesh (Mesh / BLE): Many-to-many BLE mesh aimed at commercial lighting and building control.
+- IPv6 (Network layer): Modern internet addressing and routing foundation for scalable IoT networks.
+- Digital Twin (Data model): Virtual representation of a physical device, asset or process for monitoring and simulation.
+- Matter over Wi-Fi (Application / IP): Matter application layer carried over Wi-Fi for mains-powered devices.
+- Thread 1.4 (Mesh / IPv6): Latest Thread release adding better border router management, Thread over Infrastructure and improved diagnostics.
+- Wi-SUN (Mesh / LPWAN): IEEE 802.15.4g based field area network for large outdoor smart-city and utility meshes.
+- Zigbee Green Power (Mesh / energy harvesting): Energy-harvesting profile that lets batteryless switches and sensors join a Zigbee network.
+- Bluetooth Channel Sounding (Wireless / ranging): Precise distance measurement over BLE for secure access and asset tracking.
+- 5G RedCap (Cellular / 5G): Reduced-capability 5G for wearables, industrial sensors and cameras that do not need full eMBB.
+- Satellite NTN IoT (Satellite / non-terrestrial): Direct-to-satellite connectivity for devices outside terrestrial coverage.
+- Sigfox / 0G (LPWAN / unlicensed): Ultra-narrowband, very low data rate network for simple telemetry.
+- mioty (LPWAN / telegram splitting): ETSI-standardised LPWAN using telegram splitting for high reliability in dense networks.
+- Wireless M-Bus (Metering / sub-GHz): European standard for wireless utility metering in the 868 MHz band.
+- Z-Wave Long Range (Mesh / sub-GHz): Z-Wave LR removes repeater limits and extends range for large installations.
+- CAN bus (Industrial / vehicle): Robust vehicle and machine bus, now paired with IoT gateways for telematics.
+- LoRa point-to-point (LPWAN / physical): Raw LoRa modulation without LoRaWAN, used for simple private links.
+- KNX (Building automation): Long-established building automation standard for lighting, HVAC and blinds.
+- DALI-2 (Lighting control): Digital addressable lighting interface with certified control gear and sensors.
+- Ethernet TSN (Industrial / deterministic): Time-Sensitive Networking adds determinism and time sync to standard Ethernet.
+- MQTT-SN (Messaging / constrained): MQTT for Sensor Networks, adapted for very constrained devices and non-TCP links.
+- AirPrint (Printing / IP): Apple driverless printing over the local network.
+- IPP (Printing / IP): Internet Printing Protocol, the standard behind driverless and cloud printing.
+- ESC/POS (Printing / receipt): Epson command set that became the de facto standard for receipt and label printers.
+- ZPL (Printing / label): Zebra Programming Language used to compose barcode and RFID labels.
+- Bluetooth A2DP (Audio / Bluetooth): Profile that carries stereo audio to headphones and speakers.
+- Bluetooth LE Audio (Audio / Bluetooth): Next-generation Bluetooth audio with LC3 codec, multi-stream and broadcast.
+- AirPlay 2 (Audio / streaming): Apple streaming protocol with multiroom synchronisation.
+- Google Cast (Audio / streaming): Google streaming protocol for casting audio and video to devices.
+- Spotify Connect (Audio / streaming): Streams Spotify directly to a device without routing through the phone.
+- DLNA / UPnP (Audio / streaming): Discovery and streaming standard for sharing media on a local network.
+- SunSpec Modbus (Solar / industrial): Standard register map that lets monitoring software read inverters and batteries across brands.
+- OCPP (EV charging / protocol): Open Charge Point Protocol, the standard link between a charger and a charging network.
+- Matter bridge (Interoperability): A device that exposes non-Matter products to a Matter fabric.
+- Wi-Fi sensing (Sensing / RF): Using changes in Wi-Fi signal to detect motion or presence without a dedicated sensor.
+
+## Cloud platforms covered
+
+- AWS IoT Core (AWS): Strong ecosystem; store service status and region differences
+- Azure IoT Hub / Azure IoT Edge (Microsoft Azure): Enterprise integration and device provisioning
+- Oracle Cloud Infrastructure IoT (Oracle Cloud): Use official service status and regional availability
+- Google Cloud Pub/Sub / Edge ecosystem (Google Cloud): IoT Core retired; position as migration and ecosystem page
+- IBM Cloud IoT / Watson IoT history (IBM Cloud): Verify current service lifecycle before publishing
+- Alibaba Cloud IoT Platform (Alibaba Cloud): Separate China and international regions
+- Tencent Cloud IoT Hub (Tencent Cloud): Check international product availability
+- Huawei Cloud IoTDA (Huawei Cloud): Focus on device access and regional availability
+- Volcano Engine IoT / Edge (Volcano Engine / BytePlus): Volcano Engine serves China and Asia; BytePlus covers international markets. Verify product naming and regional availability.
+- Droplets / App Platform (DigitalOcean): Server backend and hosting rather than IoT device platform
+- Cloud Compute / Kubernetes (Vultr): Server backend and hosting
+- Linode / Akamai Cloud (Akamai / Linode): Edge and hosting comparison
+- Public Cloud / Bare Metal (OVHcloud): European data residency angle
+- Cloud / Dedicated (Hetzner): Value pricing and EU residency
+- Tuya IoT Platform (Tuya Cloud): Tie provider pages to device/brand pages
+- EMQX Cloud / EMQX Enterprise (EMQX): Strong MQTT intent
+- Particle IoT Platform (Particle): Bundle hardware, SIM and platform
+- Ayla IoT Platform (Ayla Networks): Enterprise OEM platform
+- Losant Enterprise IoT Platform (Losant): Workflow and edge angle
+- Blynk IoT (Blynk): Low-code and maker audience
+- PTC ThingWorx (ThingWorx): High-value B2B leads
+- Siemens Insights Hub (Siemens Insights Hub): Industrial edge and digital twin
+- SAP Edge Services / Business Technology Platform (SAP): Enterprise integration angle
+- Ubidots (Ubidots): SMB and maker platform
+- Datacake (Datacake): LoRaWAN and low-code
+- Arduino Cloud (Arduino Cloud): Maker and education audience
+- HiveMQ Cloud / Enterprise (HiveMQ): MQTT broker comparison
+- Cloudflare Workers / R2 / Durable Objects (Cloudflare): Useful for site and IoT backend architecture
+- Scaleway Instances / IoT Hub (Scaleway): European cloud and IoT hub angle
+
+## Compatibility and reference centers
+
+- Compatibility center: https://hi-spark.net/compatibility.html
+- Product models and official manuals: https://hi-spark.net/models.html
+- Setup and troubleshooting: https://hi-spark.net/troubleshooting.html
+- Certifications and security: https://hi-spark.net/certifications.html
+- Does Ring work with Alexa?: https://hi-spark.net/compatibility/ring-alexa.html
+- Does Philips Hue work with Alexa?: https://hi-spark.net/compatibility/philips-hue-alexa.html
+- Does Philips Hue work with Apple Home?: https://hi-spark.net/compatibility/philips-hue-apple-home.html
+- Does Aqara work with Apple Home?: https://hi-spark.net/compatibility/aqara-apple-home.html
+- Does Tuya work with Alexa?: https://hi-spark.net/compatibility/tuya-alexa.html
+- Does Tuya work with Google Home?: https://hi-spark.net/compatibility/tuya-google-home.html
+- Does Matter work with Apple, Google, Alexa and SmartThings?: https://hi-spark.net/compatibility/matter-ecosystems.html
+- Does Shelly work with Home Assistant?: https://hi-spark.net/compatibility/shelly-home-assistant.html
+- Does ESPHome work with Home Assistant?: https://hi-spark.net/compatibility/esphome-home-assistant.html
+- Does SmartThings support Matter?: https://hi-spark.net/compatibility/smartthings-matter.html
+- Does Philips Hue work with Google Home?: https://hi-spark.net/compatibility/philips-hue-google-home.html
+- Does Tapo work with Google Home?: https://hi-spark.net/compatibility/tapo-google-home.html
+- Does Roborock work with Google Home?: https://hi-spark.net/compatibility/roborock-google-home.html
+- Does eufy Security work with Alexa?: https://hi-spark.net/compatibility/eufy-security-alexa.html
+- Does eWeLink work with Alexa?: https://hi-spark.net/compatibility/sonoff-ewelink-alexa.html
+- Does Govee work with Alexa?: https://hi-spark.net/compatibility/govee-alexa.html
+- Does Wyze work with Alexa?: https://hi-spark.net/compatibility/wyze-alexa.html
+- Does SwitchBot work with Google Home?: https://hi-spark.net/compatibility/switchbot-google-home.html
+- Does YoLink work with Alexa?: https://hi-spark.net/compatibility/yolink-alexa.html
+- Can Home Assistant control Matter devices?: https://hi-spark.net/compatibility/home-assistant-matter-controller.html
+- Reolink Argus 4 Pro: https://hi-spark.net/model/reolink-argus-4-pro.html
+- Aqara Smart Lock U200: https://hi-spark.net/model/aqara-u200.html
+- Ring Battery Doorbell Pro: https://hi-spark.net/model/ring-battery-doorbell-pro.html
+- TP-Link Tapo C425: https://hi-spark.net/model/tapo-c425.html
+- eufy SoloCam S340: https://hi-spark.net/model/eufy-solocam-s340.html
+- Shelly Pro 1PM: https://hi-spark.net/model/shelly-pro-1pm.html
+- Govee H619A: https://hi-spark.net/model/govee-h619a.html
+- Oura Ring 4: https://hi-spark.net/model/oura-ring-4.html
+- DJI Mini 4 Pro: https://hi-spark.net/model/dji-mini-4-pro.html
+- Wyze Cam v4: https://hi-spark.net/model/wyze-cam-v4.html
+- SwitchBot Hub 2: https://hi-spark.net/model/switchbot-hub-2.html
+- Roborock Qrevo Curv: https://hi-spark.net/model/roborock-qrevo-curv.html
+- TP-Link Tapo C220: https://hi-spark.net/model/tapo-c220.html
+- Wyze Cam Pan v3: https://hi-spark.net/model/wyze-cam-pan-v3.html
+- Aqara Hub M3: https://hi-spark.net/model/aqara-hub-m3.html
+- Philips Hue Hue Bridge: https://hi-spark.net/model/philips-hue-bridge.html
+- SONOFF Zigbee Bridge Pro: https://hi-spark.net/model/sonoff-zigbee-bridge-pro.html
+- SwitchBot Bot: https://hi-spark.net/model/switchbot-bot.html
+- eufy Indoor Cam S350: https://hi-spark.net/model/eufy-indoor-cam-s350.html
+- Roborock Q7 Max: https://hi-spark.net/model/roborock-q7-max.html
+
+## Common questions
+
+**What is IoT Atlas?** An independent IoT decision platform: a structured catalogue of devices, brands, protocols, companion apps and cloud platforms, with editorial comparisons and implementation guides.
+
+**Is the marketplace ranking data real?** No. Amazon ASINs, ranks, prices and ratings on this site are placeholder sample data for layout review. They must be replaced with a licensed data source before they can be relied on.
+
+**Are the brand scores a valuation?** No. The brand coverage index describes what a brand catalogue covers across ten dimensions. It is editorial opinion based on public information, it is not a rating or certification, and it is not a financial valuation or investment recommendation.
+
+**How are comparison scores produced?** Each comparison scores both options 0-100 on named decision factors. The weighted total is the average across factors. Readers can re-weight the factors on the brand index to get their own ordering.
+
+**What is verified in each app record?** The app name, its category and its store links. Many store links point to an official store search rather than a direct package listing; those are labelled store-search. An app is attributed to a parent company only when it is that vendor first-party app or the relationship is documented.
+
+**Can a brand request a correction?** Yes. Brands and manufacturers may request a correction, clarification or removal using the corrections policy. Supported requests are applied and the change is noted.
+
+**What is not medical advice?** Nothing here. Health and medical device listings are educational only and are not medical advice.
+
+## Content rules
+
+- Health and medical listings are not medical advice.
+- Legal pages require jurisdiction-specific review before production.
+- Community contributions are user-generated and carry their own disclaimers.
+- Corrections policy: see https://hi-spark.net/corrections-policy.html
+
+## Open data (CC BY 4.0)
+
+- Dataset landing page: https://hi-spark.net/dataset.html
+- Machine-readable dataset (JSON, 1,541 records, CC BY 4.0): https://hi-spark.net/data/iot-atlas-open-dataset.json
+- Plain-text corpus for answer engines: https://hi-spark.net/llms-full.txt
+- Recently verified records (Atom): https://hi-spark.net/feed.xml
+- Citation: IoT Atlas. IoT Atlas open reference dataset. https://hi-spark.net/data/iot-atlas-open-dataset.json
+
+## Contact
+
+- Corrections and takedown requests: https://hi-spark.net/corrections-policy.html or info@hi-spark.com

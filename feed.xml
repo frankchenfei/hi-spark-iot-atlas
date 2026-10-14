@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>IoT Atlas - recently verified records</title>
+  <subtitle>Certification, compatibility, model and troubleshooting references in English, Spanish and French.</subtitle>
+  <link href="https://hi-spark.net/feed.xml" rel="self"/>
+  <link href="https://hi-spark.net/"/>
+  <id>https://hi-spark.net/feed.xml</id>
+  <updated>2026-10-14T00:00:00Z</updated>
+  <author><name>IoT Atlas</name><uri>https://hi-spark.net/methodology.html</uri></author>
+  <rights>Editorial summary of public information. Cite with attribution.</rights>
+  <entry>
+    <title>Alexa skill will not link the vendor account</title>
+    <link href="https://hi-spark.net/troubleshooting/alexa-skill-wont-link.html"/>
+    <id>https://hi-spark.net/troubleshooting/alexa-skill-wont-link.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>During skill linking the login page loops, rejects the password or reports that the account cannot be linked.</summary>
+  </entry>
+  <entry>
+    <title>Aqara Hub M3</title>
+    <link href="https://hi-spark.net/model/aqara-hub-m3.html"/>
+    <id>https://hi-spark.net/model/aqara-hub-m3.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Matter bridge and Thread border router that also exposes Aqara Zigbee devices to third-party ecosystems.</summary>
+  </entry>
+  <entry>
+    <title>Aqara Motion Sensor P2</title>
+    <link href="https://hi-spark.net/model/aqara-motion-sensor-p2.html"/>
+    <id>https://hi-spark.net/model/aqara-motion-sensor-p2.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Thread-based motion sensor that pairs directly with Matter controllers or through an Aqara hub.</summary>
+  </entry>
+  <entry>
+    <title>Battery video doorbell drains in days</title>
+    <link href="https://hi-spark.net/troubleshooting/video-doorbell-battery-drains-fast.html"/>
+    <id>https://hi-spark.net/troubleshooting/video-doorbell-battery-drains-fast.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>A battery doorbell needs charging far more often than the expected months of use.</summary>
+  </entry>
+  <entry>
+    <title>Bluetooth device will not pair with the phone</title>
+    <link href="https://hi-spark.net/troubleshooting/ble-device-wont-pair-with-phone.html"/>
+    <id>https://hi-spark.net/troubleshooting/ble-device-wont-pair-with-phone.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>A wearable, lock or sensor in pairing mode never appears in the app or in the phone Bluetooth list.</summary>
+  </entry>
+  <entry>
+    <title>Camera image is blurry or out of focus</title>
+    <link href="https://hi-spark.net/troubleshooting/camera-image-blurry.html"/>
+    <id>https://hi-spark.net/troubleshooting/camera-image-blurry.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>Footage looks soft even in daylight, or only part of the frame is sharp.</summary>
+  </entry>
+  <entry>
+    <title>Camera live view lags or keeps buffering</title>
+    <link href="https://hi-spark.net/troubleshooting/wifi-camera-live-view-lag.html"/>
+    <id>https://hi-spark.net/troubleshooting/wifi-camera-live-view-lag.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>Live view opens but stutters, drops frames or takes many seconds to start.</summary>
+  </entry>
+  <entry>
+    <title>Camera microSD card fills up in days</title>
+    <link href="https://hi-spark.net/troubleshooting/camera-sd-card-fills-quickly.html"/>
+    <id>https://hi-spark.net/troubleshooting/camera-sd-card-fills-quickly.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>Local storage wraps or stops recording much sooner than expected.</summary>
+  </entry>
+  <entry>
+    <title>Camera motion alerts fire constantly</title>
+    <link href="https://hi-spark.net/troubleshooting/camera-motion-detection-too-sensitive.html"/>
+    <id>https://hi-spark.net/troubleshooting/camera-motion-detection-too-sensitive.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>Motion notifications trigger on swaying trees, headlights or rain instead of real events.</summary>
+  </entry>
+  <entry>
+    <title>Camera night vision is washed out or stays in black and white</title>
+    <link href="https://hi-spark.net/troubleshooting/camera-night-vision-problem.html"/>
+    <id>https://hi-spark.net/troubleshooting/camera-night-vision-problem.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>At night the image looks washed out, shows a bright ring, or the camera never switches to infrared.</summary>
+  </entry>
+  <entry>
+    <title>Camera two-way audio does not work</title>
+    <link href="https://hi-spark.net/troubleshooting/camera-two-way-audio-fails.html"/>
+    <id>https://hi-spark.net/troubleshooting/camera-two-way-audio-fails.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>You hear the camera but the person at the camera cannot hear you, or the audio is distorted.</summary>
+  </entry>
+  <entry>
+    <title>Can Home Assistant control Matter devices?</title>
+    <link href="https://hi-spark.net/compatibility/home-assistant-matter-controller.html"/>
+    <id>https://hi-spark.net/compatibility/home-assistant-matter-controller.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Home Assistant can commission and control Matter devices through its Matter integration, which runs a Matter server and works alongside Thread border routers.</summary>
+  </entry>
+  <entry>
+    <title>DJI Mini 4K</title>
+    <link href="https://hi-spark.net/model/dji-mini-4k.html"/>
+    <id>https://hi-spark.net/model/dji-mini-4k.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Compact camera drone paired with the DJI Fly app for flight control and media transfer.</summary>
+  </entry>
+  <entry>
+    <title>DJI Osmo Pocket 3</title>
+    <link href="https://hi-spark.net/model/dji-osmo-pocket-3.html"/>
+    <id>https://hi-spark.net/model/dji-osmo-pocket-3.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Handheld gimbal camera with a rotating screen that pairs with the DJI Mimo app over Wi-Fi and Bluetooth.</summary>
+  </entry>
+  <entry>
+    <title>Does Aqara work with Amazon Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/aqara-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/aqara-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Aqara hubs can be linked to Alexa so sensors, switches and lights answer voice commands and appear in routines.</summary>
+  </entry>
+  <entry>
+    <title>Does Aqara work with Google Home?</title>
+    <link href="https://hi-spark.net/compatibility/aqara-google-home.html"/>
+    <id>https://hi-spark.net/compatibility/aqara-google-home.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Aqara devices appear in Google Home through the Aqara Home integration, with Matter adding a direct path for compatible models.</summary>
+  </entry>
+  <entry>
+    <title>Does Aqara work with Matter?</title>
+    <link href="https://hi-spark.net/compatibility/aqara-matter.html"/>
+    <id>https://hi-spark.net/compatibility/aqara-matter.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Aqara exposes selected devices to Matter controllers through hubs such as the M2 and M3, which bridge the Zigbee devices into Matter.</summary>
+  </entry>
+  <entry>
+    <title>Does Arlo work with Amazon Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/arlo-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/arlo-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Arlo cameras can be linked to Alexa so supported models stream to Echo Show devices and answer camera commands.</summary>
+  </entry>
+  <entry>
+    <title>Does Blink work with Amazon Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/blink-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/blink-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Blink cameras and doorbells can be linked to Alexa so supported models stream to Echo Show devices and announce motion events.</summary>
+  </entry>
+  <entry>
+    <title>Does ecobee work with Amazon Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/ecobee-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/ecobee-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>ecobee thermostats and sensors can be controlled by Alexa after the ecobee skill is enabled, including setpoint and comfort settings.</summary>
+  </entry>
+  <entry>
+    <title>Does eufy Security work with Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/eufy-security-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/eufy-security-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>eufy Security cameras and doorbells can be linked to Alexa so supported models stream to Echo Show displays and announce events.</summary>
+  </entry>
+  <entry>
+    <title>Does eufy Security work with Apple Home?</title>
+    <link href="https://hi-spark.net/compatibility/eufy-security-apple-home.html"/>
+    <id>https://hi-spark.net/compatibility/eufy-security-apple-home.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Some eufy cameras support Apple Home through HomeKit, including HomeKit Secure Video where the model and firmware allow it.</summary>
+  </entry>
+  <entry>
+    <title>Does eufy Security work with Google Home?</title>
+    <link href="https://hi-spark.net/compatibility/eufy-google-home.html"/>
+    <id>https://hi-spark.net/compatibility/eufy-google-home.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>eufy cameras and doorbells can be added to Google Home so supported models stream and report events in the Home app.</summary>
+  </entry>
+  <entry>
+    <title>Does eWeLink work with Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/sonoff-ewelink-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/sonoff-ewelink-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>SONOFF devices managed in the eWeLink app can be controlled by Alexa after the eWeLink skill is enabled, covering switching, scenes and some sensors.</summary>
+  </entry>
+  <entry>
+    <title>Does Govee work with Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/govee-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/govee-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Govee lights and light strips can be controlled by Alexa through the Govee Home skill, including power, brightness, colour and scene commands.</summary>
+  </entry>
+  <entry>
+    <title>Does Govee work with Google Home?</title>
+    <link href="https://hi-spark.net/compatibility/govee-google-home.html"/>
+    <id>https://hi-spark.net/compatibility/govee-google-home.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Govee lights and strips can be controlled from Google Home after linking the Govee Home account, including power, brightness, colour and scenes.</summary>
+  </entry>
+  <entry>
+    <title>Does Meross work with Amazon Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/meross-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/meross-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Meross plugs, switches and garage door controllers can be controlled by Alexa after enabling the Meross skill.</summary>
+  </entry>
+  <entry>
+    <title>Does Meross work with Google Home?</title>
+    <link href="https://hi-spark.net/compatibility/meross-google-home.html"/>
+    <id>https://hi-spark.net/compatibility/meross-google-home.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Meross plugs, switches and garage controllers can be added to Google Home through the Meross integration.</summary>
+  </entry>
+  <entry>
+    <title>Does Philips Hue work with Google Home?</title>
+    <link href="https://hi-spark.net/compatibility/philips-hue-google-home.html"/>
+    <id>https://hi-spark.net/compatibility/philips-hue-google-home.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Hue lights, rooms and scenes can be controlled from Google Home after the Hue account is linked through the Philips Hue integration.</summary>
+  </entry>
+  <entry>
+    <title>Does Reolink work with Amazon Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/reolink-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/reolink-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Reolink cameras can be linked to Alexa so supported models stream to Echo Show devices and respond to camera commands.</summary>
+  </entry>
+  <entry>
+    <title>Does Reolink work with Google Home?</title>
+    <link href="https://hi-spark.net/compatibility/reolink-google-home.html"/>
+    <id>https://hi-spark.net/compatibility/reolink-google-home.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Reolink cameras can be added to Google Home so supported models stream and report motion events in the Home app.</summary>
+  </entry>
+  <entry>
+    <title>Does Ring work with Google Home?</title>
+    <link href="https://hi-spark.net/compatibility/ring-google-home.html"/>
+    <id>https://hi-spark.net/compatibility/ring-google-home.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Ring doorbells and cameras can be linked to Google Home so supported models stream to Nest displays and announce events.</summary>
+  </entry>
+  <entry>
+    <title>Does Roborock work with Amazon Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/roborock-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/roborock-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Roborock vacuums can be linked to Alexa for start, pause, dock and room cleaning commands on supported models.</summary>
+  </entry>
+  <entry>
+    <title>Does Roborock work with Google Home?</title>
+    <link href="https://hi-spark.net/compatibility/roborock-google-home.html"/>
+    <id>https://hi-spark.net/compatibility/roborock-google-home.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Roborock vacuums can be linked to Google Home for start, stop, dock and room-based cleaning commands on models that expose those traits.</summary>
+  </entry>
+  <entry>
+    <title>Does Shelly work with Amazon Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/shelly-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/shelly-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Shelly relays and plugs can be controlled by Alexa after the Shelly Cloud or Matter path is set up.</summary>
+  </entry>
+  <entry>
+    <title>Does Shelly work with Matter?</title>
+    <link href="https://hi-spark.net/compatibility/shelly-matter.html"/>
+    <id>https://hi-spark.net/compatibility/shelly-matter.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Shelly relays and plugs based on Gen2 or Gen3 hardware can be exposed to Matter controllers, in addition to local and cloud control.</summary>
+  </entry>
+  <entry>
+    <title>Does SONOFF / eWeLink work with Google Home?</title>
+    <link href="https://hi-spark.net/compatibility/sonoff-google-home.html"/>
+    <id>https://hi-spark.net/compatibility/sonoff-google-home.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>SONOFF devices managed in eWeLink can be added to Google Home through the eWeLink integration, covering switching and scenes.</summary>
+  </entry>
+  <entry>
+    <title>Does SwitchBot work with Amazon Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/switchbot-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/switchbot-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>SwitchBot devices reach Alexa through the SwitchBot skill with a hub, or directly when the model supports Matter.</summary>
+  </entry>
+  <entry>
+    <title>Does SwitchBot work with Google Home?</title>
+    <link href="https://hi-spark.net/compatibility/switchbot-google-home.html"/>
+    <id>https://hi-spark.net/compatibility/switchbot-google-home.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>SwitchBot devices can reach Google Home either through the SwitchBot integration with a hub, or directly when the device supports Matter.</summary>
+  </entry>
+  <entry>
+    <title>Does SwitchBot work with Matter?</title>
+    <link href="https://hi-spark.net/compatibility/switchbot-matter.html"/>
+    <id>https://hi-spark.net/compatibility/switchbot-matter.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Selected SwitchBot devices reach Matter controllers through a compatible SwitchBot hub, which acts as the bridge.</summary>
+  </entry>
+  <entry>
+    <title>Does Tapo work with Google Home?</title>
+    <link href="https://hi-spark.net/compatibility/tapo-google-home.html"/>
+    <id>https://hi-spark.net/compatibility/tapo-google-home.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Tapo devices can be linked to Google Home through the Tapo integration, which exposes live view on supported cameras plus plugs and lighting controls.</summary>
+  </entry>
+  <entry>
+    <title>Does TP-Link Kasa work with Google Home?</title>
+    <link href="https://hi-spark.net/compatibility/kasa-google-home.html"/>
+    <id>https://hi-spark.net/compatibility/kasa-google-home.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Kasa plugs, switches and bulbs can be linked to Google Home through the Kasa integration for switching and scenes.</summary>
+  </entry>
+  <entry>
+    <title>Does TP-Link Kasa work with Matter?</title>
+    <link href="https://hi-spark.net/compatibility/kasa-matter.html"/>
+    <id>https://hi-spark.net/compatibility/kasa-matter.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Several Kasa plugs, switches and bulbs support Matter, which lets them pair directly with a Matter controller instead of the Kasa cloud integration.</summary>
+  </entry>
+  <entry>
+    <title>Does TP-Link Tapo work with Amazon Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/tapo-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/tapo-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Tapo cameras, plugs and lights can be linked to Alexa so supported models stream to Echo Show devices and plugs respond to voice control.</summary>
+  </entry>
+  <entry>
+    <title>Does TP-Link Tapo work with Matter?</title>
+    <link href="https://hi-spark.net/compatibility/tapo-matter.html"/>
+    <id>https://hi-spark.net/compatibility/tapo-matter.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Selected Tapo plugs, bulbs and sensors support Matter, allowing direct pairing with Matter controllers alongside the Tapo app.</summary>
+  </entry>
+  <entry>
+    <title>Does Tuya / Smart Life work with Home Assistant?</title>
+    <link href="https://hi-spark.net/compatibility/tuya-home-assistant.html"/>
+    <id>https://hi-spark.net/compatibility/tuya-home-assistant.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Home Assistant can control Tuya and Smart Life devices through its official Tuya integration, which links the device cloud to the local dashboard.</summary>
+  </entry>
+  <entry>
+    <title>Does WiZ work with Amazon Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/wiz-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/wiz-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>WiZ lights can be controlled by Alexa through the WiZ skill, including power, brightness, colour and scenes.</summary>
+  </entry>
+  <entry>
+    <title>Does Wyze work with Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/wyze-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/wyze-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Wyze cameras and plugs can be linked to Alexa so supported models stream to Echo Show devices and plugs respond to voice commands.</summary>
+  </entry>
+  <entry>
+    <title>Does Wyze work with Google Home?</title>
+    <link href="https://hi-spark.net/compatibility/wyze-google-home.html"/>
+    <id>https://hi-spark.net/compatibility/wyze-google-home.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>Wyze cameras and plugs can be linked to Google Home for live view on supported displays and switching commands.</summary>
+  </entry>
+  <entry>
+    <title>Does YoLink work with Alexa?</title>
+    <link href="https://hi-spark.net/compatibility/yolink-alexa.html"/>
+    <id>https://hi-spark.net/compatibility/yolink-alexa.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Compatibility"/>
+    <summary>YoLink sensors and controls need a YoLink hub before they can be linked to Alexa for status queries, alerts and switching.</summary>
+  </entry>
+  <entry>
+    <title>eufy Indoor Cam S350</title>
+    <link href="https://hi-spark.net/model/eufy-indoor-cam-s350.html"/>
+    <id>https://hi-spark.net/model/eufy-indoor-cam-s350.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Indoor dual-lens pan and tilt camera managed from the eufy Security app.</summary>
+  </entry>
+  <entry>
+    <title>Firmware update stalls at a percentage</title>
+    <link href="https://hi-spark.net/troubleshooting/firmware-update-stuck.html"/>
+    <id>https://hi-spark.net/troubleshooting/firmware-update-stuck.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>An over-the-air update sits at the same percentage for a long time, fails, or the device becomes unresponsive afterwards.</summary>
+  </entry>
+  <entry>
+    <title>Fitness band or watch does not sync steps</title>
+    <link href="https://hi-spark.net/troubleshooting/wearable-steps-not-syncing.html"/>
+    <id>https://hi-spark.net/troubleshooting/wearable-steps-not-syncing.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>The band shows steps on the screen but the app keeps yesterday's numbers or stays empty.</summary>
+  </entry>
+  <entry>
+    <title>GPS tracker reports the wrong location</title>
+    <link href="https://hi-spark.net/troubleshooting/gps-tracker-location-inaccurate.html"/>
+    <id>https://hi-spark.net/troubleshooting/gps-tracker-location-inaccurate.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>A tracker shows a location hundreds of metres off, jumps between places or stops updating.</summary>
+  </entry>
+  <entry>
+    <title>Hub forgets devices after a power cut</title>
+    <link href="https://hi-spark.net/troubleshooting/hub-loses-devices-after-power-cut.html"/>
+    <id>https://hi-spark.net/troubleshooting/hub-loses-devices-after-power-cut.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>After an outage the hub comes back but several devices show offline or missing.</summary>
+  </entry>
+  <entry>
+    <title>Matter commissioning code is rejected</title>
+    <link href="https://hi-spark.net/troubleshooting/matter-commissioning-code-rejected.html"/>
+    <id>https://hi-spark.net/troubleshooting/matter-commissioning-code-rejected.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>The controller says the pairing code is wrong, expired or already in use.</summary>
+  </entry>
+  <entry>
+    <title>Nanoleaf Shapes</title>
+    <link href="https://hi-spark.net/model/nanoleaf-shapes.html"/>
+    <id>https://hi-spark.net/model/nanoleaf-shapes.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Modular light panels controlled from the Nanoleaf app, with Matter support on current firmware.</summary>
+  </entry>
+  <entry>
+    <title>Philips Hue Hue Bridge</title>
+    <link href="https://hi-spark.net/model/philips-hue-bridge.html"/>
+    <id>https://hi-spark.net/model/philips-hue-bridge.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Zigbee controller for Hue lights that also brings the system into Apple Home, Google Home, Alexa and Matter.</summary>
+  </entry>
+  <entry>
+    <title>Philips Hue White and Color Ambiance</title>
+    <link href="https://hi-spark.net/model/philips-hue-white-color-bulb.html"/>
+    <id>https://hi-spark.net/model/philips-hue-white-color-bulb.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Colour LED bulb controlled from the Hue app and integrated with Alexa, Google Home and Apple Home through the Hue system.</summary>
+  </entry>
+  <entry>
+    <title>Ring Indoor Cam</title>
+    <link href="https://hi-spark.net/model/ring-indoor-cam.html"/>
+    <id>https://hi-spark.net/model/ring-indoor-cam.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Plug-in indoor camera managed from the Ring app with Ring and Alexa workflows.</summary>
+  </entry>
+  <entry>
+    <title>Roborock Q7 Max</title>
+    <link href="https://hi-spark.net/model/roborock-q7-max.html"/>
+    <id>https://hi-spark.net/model/roborock-q7-max.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Robot vacuum and mop managed from the Roborock app with map-based cleaning.</summary>
+  </entry>
+  <entry>
+    <title>Roborock S8</title>
+    <link href="https://hi-spark.net/model/roborock-s8.html"/>
+    <id>https://hi-spark.net/model/roborock-s8.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Robot vacuum and mop with map-based cleaning managed from the Roborock app.</summary>
+  </entry>
+  <entry>
+    <title>Robot vacuum cannot find its dock</title>
+    <link href="https://hi-spark.net/troubleshooting/robot-vacuum-cannot-find-dock.html"/>
+    <id>https://hi-spark.net/troubleshooting/robot-vacuum-cannot-find-dock.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>The robot cleans but cannot return to the charging dock, or it reports that it is lost.</summary>
+  </entry>
+  <entry>
+    <title>Robot vacuum leaves streaks or puddles</title>
+    <link href="https://hi-spark.net/troubleshooting/robot-vacuum-mop-streaks.html"/>
+    <id>https://hi-spark.net/troubleshooting/robot-vacuum-mop-streaks.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>After mopping the floor shows streaks, wet spots, or the robot stops moving on wet flooring.</summary>
+  </entry>
+  <entry>
+    <title>Shelly Plus 1PM</title>
+    <link href="https://hi-spark.net/model/shelly-plus-1pm.html"/>
+    <id>https://hi-spark.net/model/shelly-plus-1pm.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>DIN and in-wall relay with power measurement and local automation support.</summary>
+  </entry>
+  <entry>
+    <title>Smart bulb flickers or buzzes</title>
+    <link href="https://hi-spark.net/troubleshooting/smart-bulb-flickers.html"/>
+    <id>https://hi-spark.net/troubleshooting/smart-bulb-flickers.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>An LED smart bulb flickers, buzzes or glows faintly when switched off.</summary>
+  </entry>
+  <entry>
+    <title>Smart lock battery drains in days</title>
+    <link href="https://hi-spark.net/troubleshooting/smart-lock-battery-drains-fast.html"/>
+    <id>https://hi-spark.net/troubleshooting/smart-lock-battery-drains-fast.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>A battery-powered smart lock reports low battery far sooner than the expected months of use.</summary>
+  </entry>
+  <entry>
+    <title>Smart lock keypad stops accepting the code</title>
+    <link href="https://hi-spark.net/troubleshooting/smart-lock-keypad-code-fails.html"/>
+    <id>https://hi-spark.net/troubleshooting/smart-lock-keypad-code-fails.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>The keypad lights up but the stored code no longer unlocks the door, or codes are only rejected at certain times.</summary>
+  </entry>
+  <entry>
+    <title>Smart plug reports no energy data</title>
+    <link href="https://hi-spark.net/troubleshooting/smart-plug-no-energy-reading.html"/>
+    <id>https://hi-spark.net/troubleshooting/smart-plug-no-energy-reading.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>The plug switches fine but the power or consumption figures stay at zero or are missing.</summary>
+  </entry>
+  <entry>
+    <title>Smart plug shows online but does not switch</title>
+    <link href="https://hi-spark.net/troubleshooting/smart-plug-online-but-not-switching.html"/>
+    <id>https://hi-spark.net/troubleshooting/smart-plug-online-but-not-switching.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>The plug reports online in the app, but toggling it does nothing or the relay clicks and returns to the previous state.</summary>
+  </entry>
+  <entry>
+    <title>Smart plug turns off on its own</title>
+    <link href="https://hi-spark.net/troubleshooting/smart-plug-turns-off-randomly.html"/>
+    <id>https://hi-spark.net/troubleshooting/smart-plug-turns-off-randomly.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>A plug or switch cuts power at random times without a scheduled action.</summary>
+  </entry>
+  <entry>
+    <title>Solar panel does not keep the camera charged</title>
+    <link href="https://hi-spark.net/troubleshooting/camera-solar-panel-not-charging.html"/>
+    <id>https://hi-spark.net/troubleshooting/camera-solar-panel-not-charging.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>A solar-powered camera keeps losing charge even on sunny days.</summary>
+  </entry>
+  <entry>
+    <title>SONOFF Zigbee Bridge Pro</title>
+    <link href="https://hi-spark.net/model/sonoff-zigbee-bridge-pro.html"/>
+    <id>https://hi-spark.net/model/sonoff-zigbee-bridge-pro.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Wi-Fi to Zigbee bridge that exposes SONOFF and third-party Zigbee devices to the eWeLink app.</summary>
+  </entry>
+  <entry>
+    <title>Streaming device or smart TV will not join Wi-Fi</title>
+    <link href="https://hi-spark.net/troubleshooting/streaming-device-wont-join-wifi.html"/>
+    <id>https://hi-spark.net/troubleshooting/streaming-device-wont-join-wifi.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>A TV, stick or streaming device cannot see the network or fails at the password step.</summary>
+  </entry>
+  <entry>
+    <title>SwitchBot Bot</title>
+    <link href="https://hi-spark.net/model/switchbot-bot.html"/>
+    <id>https://hi-spark.net/model/switchbot-bot.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Battery-powered switch presser that turns an existing button or switch into a remotely controlled one.</summary>
+  </entry>
+  <entry>
+    <title>SwitchBot Curtain 3</title>
+    <link href="https://hi-spark.net/model/switchbot-curtain-3.html"/>
+    <id>https://hi-spark.net/model/switchbot-curtain-3.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Motorised curtain controller managed from the SwitchBot app, with remote access through a hub.</summary>
+  </entry>
+  <entry>
+    <title>The app cannot find a device because of the account region</title>
+    <link href="https://hi-spark.net/troubleshooting/app-account-region-mismatch.html"/>
+    <id>https://hi-spark.net/troubleshooting/app-account-region-mismatch.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>After moving, changing Wi-Fi or reinstalling the app, a device that used to work is invisible during pairing.</summary>
+  </entry>
+  <entry>
+    <title>Thread devices go offline when the border router is down</title>
+    <link href="https://hi-spark.net/troubleshooting/thread-device-offline-border-router.html"/>
+    <id>https://hi-spark.net/troubleshooting/thread-device-offline-border-router.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Troubleshooting"/>
+    <summary>Matter-over-Thread sensors and lights stop responding but their battery and app status look normal.</summary>
+  </entry>
+  <entry>
+    <title>TP-Link Tapo C220</title>
+    <link href="https://hi-spark.net/model/tapo-c220.html"/>
+    <id>https://hi-spark.net/model/tapo-c220.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Indoor pan and tilt Wi-Fi camera managed from the Tapo app.</summary>
+  </entry>
+  <entry>
+    <title>TP-Link Tapo P110</title>
+    <link href="https://hi-spark.net/model/tapo-p110.html"/>
+    <id>https://hi-spark.net/model/tapo-p110.html</id>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <category term="Model"/>
+    <summary>Smart plug with energy monitoring managed from the Tapo app.</summary>
+  </entry>
+</feed>
